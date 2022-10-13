@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">LatestNews</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="navigation_headline_title">Headlines</string>
+    <string name="navigation_category_title">Categories</string>
+    <string name="navigation_favorite_title">Favorites</string>
+    <string name="category_fragment_title">Categories</string>
+    <string name="favorite_fragment_title">Favorites</string>
+    <string name="headline_fragment_category">Headlines</string>
+    <string name="news_image">News Image</string>
+    <string name="like_button">Like</string>
+    <string name="share">Share</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="widget_update">Widget Update</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news_headline">News Headline</string>
+    <string name="no_internet_message">No internet</string>
+    <string name="liked_article_mesage">you liked an article</string>
+    <string name="california_title">California</string>
+    <string name="ng_title">Nigeria</string>
+    <string name="u_title">United States</string>
+    <string name="de_title">Germany</string>
+    <string name="widget_update_msg">Widget Updated</string>
+    <string name="entertainement_txt">Entertainment</string>
+    <string name="health_txt">Health</string>
+    <string name="sports_txt">SPORTS</string>
+    <string name="tech_txt">TECHNOLOGY</string>
+    <string name="link_not_available">Link not available</string>
+    <string name="england_title">Great-Britain</string>
+    <string name="netherlands_title">Netherlands</string>
+    <string name="singapore_title">Singapore</string>
+    <string name="france_title">France</string>
+    <string name="taiwan_title">Taiwan</string>
+    <string name="general_txt">General</string>
+    <string name="business_txt">Business</string>
+    <string name="science_txt">Science</string>
+    <string name="australia_title">Australia</string>
+    <string name="newzeeland_title">New-Zealand</string>
+    <string name="hongkong_title">Hongkong</string>
+    <string name="southafrica_title">South-Africa</string>
+    <string name="countryDialog_title">Choose Country</string>
+    <string name="india_title">India</string>
+    <string name="saved_SelCountry">Selected Country</string>
+    <string name="configuration">Settings</string>
+    <string name="configDialog_title">App-Settings</string>
+    <string name="apikey_txt">New API-Key:</string>
+    <string name="saved_apikey">api_key</string>
+    <string name="apikeyCurr_txt">Stored API-Key</string>
+    <string name="btnOKConfigDialog">Save</string>
+    <string name="btnCancelConfigDialog">Cancel</string>
+    <string name="msg_missingAPI">API-Key missing!</string>
+    <string name="newsapiTxt">Get valid API-Key from https://newsapi.org</string>
+    <string name="api_update_msg">"New API-Key: "</string>
+    <string name="aboutOptionMenuTxt">About</string>
+    <string name="aboutDialog_title">About this App</string>
+    <string name="dialogAbout_Title">App-Info</string>
+    <string name="dialogAbout_defaultTextAppName">Latest News</string>
+    <string name="dialogAbout_tvVersionInfo">App-Version</string>
+    <string name="dialogAbout_defaultVersionInfo">20221012 V1.3</string>
+    <string name="dialogAbout_tvAutor">App-Author</string>
+    <string name="app_author">Herbert Sablotny</string>
+    <string name="dialogAbout_tvPolicy">Policies</string>
+    <string name="app_policy_lnk">https://www.ways4.eu</string>
+    <string name="dialogAbout_lblAppName">App-Name</string>
+    <string name="exitOptionTxt">Quit App</string>
+</resources>

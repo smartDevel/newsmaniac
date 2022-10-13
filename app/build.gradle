@@ -1,0 +1,118 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'com.google.gms.google-services'
+
+//def keystorePropertiesFile = rootProject.file("./keystore.properties")
+//def keystoreProperties = new Properties()
+//keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+String getApiKey() {
+    def propFile = rootProject.file("./local.properties")
+    def properties = new Properties()
+    properties.load(new FileInputStream(propFile))
+    return properties['API_KEY']
+}
+
+android {
+    signingConfigs {
+//        NewsFeed {
+//            storeFile file('./Newsfeed.jks')
+//            storePassword keystoreProperties['STORE_PASSWORD']
+//            keyAlias keystoreProperties['KEY_ALIAS']
+//            keyPassword keystoreProperties['KEYPASSWORD']
+//        }
+        release_newsfeed {
+            storeFile file('C:\\Users\\Herby\\keystore\\sy_key_android_v01.jks')
+            keyAlias 'key1'
+            storePassword ANDROID_STORE_PASSWORD
+            keyPassword ANDROID_KEY_PASSWORD
+        }
+    }
+
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "com.kulloveth.latestnews"
+        minSdkVersion 22
+        targetSdkVersion 30
+        versionCode 20221012
+        versionName "1.3"
+        buildConfigField 'String', "API_KEY", getApiKey()
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            //signingConfig signingConfigs.NewsFeed
+            signingConfig signingConfigs.release_newsfeed
+            versionNameSuffix = ''
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    android {
+        viewBinding {
+            enabled = true
+        }
+    }
+
+}
+
+dependencies {
+
+    def lifecycle_version = "2.2.0"
+    def room = "2.2.5"
+    def rx_android = "2.1.1"
+    def rxjava2 = "2.1.3"
+    def retrofit_version = "2.9.0"
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    //implementation 'com.google.firebase:firebase-analytics:17.3.0'
+    //implementation 'com.google.firebase:firebase-ads:19.0.1'
+    annotationProcessor 'androidx.lifecycle:lifecycle-common-java8:2.2.0'
+
+    //rxjava
+    implementation "io.reactivex.rxjava2:rxandroid:$rx_android"
+    implementation "io.reactivex.rxjava2:rxjava:$rxjava2"
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    //room
+    implementation "androidx.room:room-runtime:$room"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    annotationProcessor "androidx.room:room-compiler:$room"
+    implementation "androidx.room:room-rxjava2:$room"
+
+    // ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    // LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+
+    //implementation 'com.google.code.gson:gson:2.8.6'
+    //retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //okHtp logginh
+    implementation("com.squareup.okhttp3:logging-interceptor:4.7.2")
+    implementation 'com.squareup.okhttp3:okhttp:4.7.2'
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'androidx.navigation:navigation-fragment:2.2.2'
+    implementation 'androidx.navigation:navigation-ui:2.2.2'
+}
