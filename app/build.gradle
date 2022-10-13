@@ -32,7 +32,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.kulloveth.latestnews"
+        applicationId "eu.ways4.newsmaniac"
         minSdkVersion 22
         targetSdkVersion 30
         versionCode 20221013
