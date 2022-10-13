@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Aktuelle Nachrichten</string>
+    <string name="app_name">News-Maniac</string>
     <string name="navigation_headline_title">Schlagzeilen</string>
     <string name="navigation_category_title">Kategorien</string>
     <string name="navigation_favorite_title">Favoriten</string>
