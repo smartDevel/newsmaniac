@@ -36,7 +36,7 @@ android {
         minSdkVersion 22
         targetSdkVersion 30
         versionCode 20221014
-        versionName "1.3."
+        versionName "1.3.1"
         buildConfigField 'String', "API_KEY", getApiKey()
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -47,7 +47,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             //signingConfig signingConfigs.NewsFeed
             signingConfig signingConfigs.release_newsfeed
-            versionNameSuffix = '1'
+            versionNameSuffix = ''
         }
     }
 

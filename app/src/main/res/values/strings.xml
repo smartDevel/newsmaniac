@@ -67,8 +67,8 @@
     <string name="dialogAbout_defaultVersionInfo">20221012 V1.3</string>
     <string name="dialogAbout_tvAutor">App-Author</string>
     <string name="app_author">Herbert Sablotny</string>
-    <string name="dialogAbout_tvPolicy">Policies</string>
-    <string name="app_policy_lnk">https://www.ways4.eu</string>
+    <string name="dialogAbout_tvPolicy">Policy</string>
+    <string name="app_policy_lnk">https://wp.me/p4wJQa-zl</string>
     <string name="dialogAbout_lblAppName">App-Name</string>
     <string name="exitOptionTxt">Quit App</string>
 </resources>
