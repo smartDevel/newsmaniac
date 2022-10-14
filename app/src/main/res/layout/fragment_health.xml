@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:focusable="true"
-    tools:context=".ui.category.health.HealthFragment">
+    tools:context="eu.ways4.newsmaniac.ui.category.health.HealthFragment">
 
     <include layout="@layout/category_recyclerview"
         android:id="@+id/sub_category_rv"/>

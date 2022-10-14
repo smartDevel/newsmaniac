@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:focusable="true"
-    tools:context=".ui.category.general.GeneralFragment">
+    tools:context="eu.ways4.newsmaniac.ui.category.general.GeneralFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <include
