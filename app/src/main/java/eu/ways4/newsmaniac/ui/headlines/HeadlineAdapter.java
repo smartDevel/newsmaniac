@@ -78,11 +78,20 @@ public class HeadlineAdapter extends ListAdapter<Article, HeadlineAdapter.HeadLi
             if (path != null) {
                 if (path.isEmpty())
                     path = null;
-                Picasso.get().load(path).placeholder(R.drawable.ic_launcher_background).error(R.drawable.ic_launcher_background).into(headlineImage);
 
+                try {
+                    Picasso.get().load(path).placeholder(R.drawable.ic_launcher_background).error(R.drawable.ic_launcher_background).into(headlineImage);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
 
             } else {
-                headlineImage.setImageResource(R.drawable.ic_launcher_background);
+                try {
+                    headlineImage.setImageResource(R.drawable.ic_launcher_background);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
             }
             share.setOnClickListener(v -> {
                 AppUtils.shareNewsTitle(v.getContext(), activity, article.getTitle() + "\n" + article.getUrl());
