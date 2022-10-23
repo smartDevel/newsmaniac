@@ -29,7 +29,10 @@ This app provides you with news headlines happening around the world,with option
 
 ![Country-Selection](screenshots/ssht_en_countrySelection.png)
   </td> 
+    <td>
 
+![Settings-Screen](screenshots/ssht_en_appsettings.png)
+  </td> 
   </tr>
 </table>
 
