@@ -45,7 +45,6 @@
     <string name="configuration">Réglages</string>
     <string name="configDialog_title">Paramètres de l\'application</string>
     <string name="apikey_txt">Nouvelle clé API :</string>
-    <string name="saved_apikey">api_key</string>
     <string name="apikeyCurr_txt">Clé API stockée</string>
     <string name="btnOKConfigDialog">Enregistrer</string>
     <string name="btnCancelConfigDialog">Annuler</string>
@@ -55,9 +54,7 @@
     <string name="aboutOptionMenuTxt">À propos de</string>
     <string name="aboutDialog_title">À propos de cette application</string>
     <string name="dialogAbout_Title">Informations sur l\'application</string>
-    <string name="dialogAbout_defaultTextAppName">NewsManiac</string>
     <string name="dialogAbout_tvVersionInfo">Version de l\'application:</string>
-    <string name="dialogAbout_defaultVersionInfo">20221012 V1.3</string>
     <string name="dialogAbout_tvAutor">App-Auteur :</string>
     <string name="dialogAbout_lblAppName">Nom de l\'application:</string>
     <string name="exitOptionTxt">Quitter l\'application</string>

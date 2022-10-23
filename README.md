@@ -8,24 +8,28 @@ This app provides you with news headlines happening around the world,with option
 <tr>
 <td>
 
- ![Headlines](screenshots/headlines.png)
+ ![Headlines](screenshots/ssht_en_headlines.png)
 
  </td>
  <td>
 
- ![Categories](screenshots/categories.png)
+ ![Categories](screenshots/ssht_en_categories.png)
 
  </td>
    <td>
 
-  ![Health](screenshots/health.png)
+  ![Health](screenshots/ssht_en_health.png)
 
   </td>
     <td>
     
- ![Share](screenshots/share.png)
+ ![Share](screenshots/ssht_en_share.png)
   </td>
-  
+    <td>
+
+![Country-Selection](screenshots/ssht_en_countrySelection.png)
+  </td> 
+
   </tr>
 </table>
 

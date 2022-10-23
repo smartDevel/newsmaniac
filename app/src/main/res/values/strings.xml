@@ -52,7 +52,7 @@
     <string name="configuration">Settings</string>
     <string name="configDialog_title">App-Settings</string>
     <string name="apikey_txt">New API-Key:</string>
-    <string name="saved_apikey">api_key</string>
+    <string name="saved_apikey" translatable="false">api_key</string>
     <string name="apikeyCurr_txt">Stored API-Key</string>
     <string name="btnOKConfigDialog">Save</string>
     <string name="btnCancelConfigDialog">Cancel</string>
@@ -62,9 +62,9 @@
     <string name="aboutOptionMenuTxt">About</string>
     <string name="aboutDialog_title">About this App</string>
     <string name="dialogAbout_Title">App-Info</string>
-    <string name="dialogAbout_defaultTextAppName">NewsManiac</string>
+    <string name="dialogAbout_defaultTextAppName" translatable="false">NewsManiac</string>
     <string name="dialogAbout_tvVersionInfo">App-Version:</string>
-    <string name="dialogAbout_defaultVersionInfo">20221012 V1.3</string>
+    <string name="dialogAbout_defaultVersionInfo" translatable="false">20221012 V1.3</string>
     <string name="dialogAbout_tvAutor">App-Author:</string>
     <string name="app_author" translatable="false">Herbert Sablotny</string>
     <string name="dialogAbout_tvPolicy" translatable="false">Policy:</string>
