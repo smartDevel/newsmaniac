@@ -38,8 +38,8 @@ This app provides you with news headlines happening around the world,with option
 
 ### You can get your API_KEY from [NewsApi.org](http://newsapi.org/)
 # Features
-* Users can search for any topic
 * Users can check headlines from specific country or category
 * User can share headline Url with friends
 * User can mark a headline as Favorite and view offline
+* Users can search for any topic
 
