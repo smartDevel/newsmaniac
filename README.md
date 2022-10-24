@@ -1,6 +1,6 @@
 # NEWSMANIAC-NEWS-APP-ANDROID
 ## Project Overview
-This app provides you with news headlines happening around the world,with options to select specific country and news categories from [NewsApi.org](http://newsapi.org/)
+This app provides you with news headlines happening around the world,with options to select specific country/region and news categories from [NewsApi.org](http://newsapi.org/)
 
 ## Screenshots
 
