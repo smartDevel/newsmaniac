@@ -34,6 +34,22 @@ This app provides you with news headlines happening around the world,with option
 ![Settings-Screen](screenshots/ssht_en_appsettings.png)
   </td> 
   </tr>
+<tr>
+<td>
+
+![Headlines](screenshots/ssht_de_headlines.png)
+
+ </td>
+ <td>
+
+![Categories](screenshots/ssht_de_categories.png)
+
+ </td>
+    <td>
+
+![Country-Selection](screenshots/ssht_de_countrySelection.png)
+  </td> 
+  </tr>
 </table>
 
 ### You can get your API_KEY from [NewsApi.org](http://newsapi.org/)
@@ -42,4 +58,5 @@ This app provides you with news headlines happening around the world,with option
 * User can share headline Url with friends
 * User can mark a headline as Favorite and view offline
 * Users can search for any topic
+* App languages currently supported: german, english, french, netherlands, simplified chinese
 
