@@ -50,6 +50,49 @@ This app provides you with news headlines happening around the world,with option
 ![Country-Selection](screenshots/ssht_de_countrySelection.png)
   </td> 
   </tr>
+<tr>
+<td>
+
+![Headlines](screenshots/ssht_fr_headlines.png)
+
+ </td>
+ <td>
+
+![Categories](screenshots/ssht_fr_categories.png)
+
+ </td>
+    <td>
+
+![Country-Selection](screenshots/ssht_fr_countrySelection.png)
+  </td> 
+  </tr>
+<tr>
+<td>
+
+![Headlines](screenshots/ssht_nl_headlines.png)
+
+ </td>
+ <td>
+
+![Categories](screenshots/ssht_nl_categories.png)
+
+ </td>
+    <td>
+
+![Country-Selection](screenshots/ssht_nl_countrySelection.png)
+  </td> 
+  </tr>
+<tr>
+<td>
+
+![Headlines](screenshots/ssht_cn_headlines.png)
+
+ </td>
+ <td>
+
+![Country-Selection](screenshots/ssht_cn_countrySelection.png)
+  </td> 
+  </tr>
 </table>
 
 ### You can get your API_KEY from [NewsApi.org](http://newsapi.org/)
