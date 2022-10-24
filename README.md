@@ -55,6 +55,8 @@ This app provides you with news headlines happening around the world,with option
 ### You can get your API_KEY from [NewsApi.org](http://newsapi.org/)
 # Features
 * Users can check headlines from specific country or category
+  Choose from available countries/regions: Germany, USA, Singapore, Australia, New-Zealand, India, Hongkong
+  Netherlands, Taiwan, Great-Britain, France, South-Africa
 * User can share headline Url with friends
 * User can mark a headline as Favorite and view offline
 * Users can search for any topic
