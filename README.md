@@ -1,6 +1,6 @@
 # NEWSMANIAC-NEWS-APP-ANDROID
 ## Project Overview
-This app provides you with news headlines happening around the world,with options to select specific country and news categories from [NewsApi.org](http://newsapi.org/)
+This app provides you with news headlines happening around the world,with options to select specific country/region and news categories from [NewsApi.org](http://newsapi.org/)
 
 ## Screenshots
 
@@ -8,31 +8,100 @@ This app provides you with news headlines happening around the world,with option
 <tr>
 <td>
 
- ![Headlines](screenshots/headlines.png)
+ ![Headlines](screenshots/ssht_en_headlines.png)
 
  </td>
  <td>
 
- ![Categories](screenshots/categories.png)
+ ![Categories](screenshots/ssht_en_categories.png)
 
  </td>
    <td>
 
-  ![Health](screenshots/health.png)
+  ![Health](screenshots/ssht_en_health.png)
 
   </td>
     <td>
     
- ![Share](screenshots/share.png)
+ ![Share](screenshots/ssht_en_share.png)
   </td>
-  
+    <td>
+
+![Country-Selection](screenshots/ssht_en_countrySelection.png)
+  </td> 
+    <td>
+
+![Settings-Screen](screenshots/ssht_en_appsettings.png)
+  </td> 
+  </tr>
+<tr>
+<td>
+
+![Headlines](screenshots/ssht_de_headlines.png)
+
+ </td>
+ <td>
+
+![Categories](screenshots/ssht_de_categories.png)
+
+ </td>
+    <td>
+
+![Country-Selection](screenshots/ssht_de_countrySelection.png)
+  </td> 
+  </tr>
+<tr>
+<td>
+
+![Headlines](screenshots/ssht_fr_headlines.png)
+
+ </td>
+ <td>
+
+![Categories](screenshots/ssht_fr_categories.png)
+
+ </td>
+    <td>
+
+![Country-Selection](screenshots/ssht_fr_countrySelection.png)
+  </td> 
+  </tr>
+<tr>
+<td>
+
+![Headlines](screenshots/ssht_nl_headlines.png)
+
+ </td>
+ <td>
+
+![Categories](screenshots/ssht_nl_categories.png)
+
+ </td>
+    <td>
+
+![Country-Selection](screenshots/ssht_nl_countrySelection.png)
+  </td> 
+  </tr>
+<tr>
+<td>
+
+![Headlines](screenshots/ssht_cn_headlines.png)
+
+ </td>
+ <td>
+
+![Country-Selection](screenshots/ssht_cn_countrySelection.png)
+  </td> 
   </tr>
 </table>
 
 ### You can get your API_KEY from [NewsApi.org](http://newsapi.org/)
 # Features
-* Users can search for any topic
-* Users can check headlines from specific country or category
+* Users can check headlines from specific country or category.
+  Choose from available countries/regions: Germany, USA, Singapore, Australia, New-Zealand, India, 
+  Hongkong, Netherlands, Taiwan, Great-Britain, France, South-Africa
 * User can share headline Url with friends
 * User can mark a headline as Favorite and view offline
+* Users can search for any topic
+* App languages currently supported: german, english, french, netherlands, simplified chinese
 

@@ -29,7 +29,16 @@ public class NewsWidget extends AppWidgetProvider {
         intent.putExtra(HEADLINE_TITLE, articles);
         intent.putExtra(IS_INTENTFROMWDGET_KEY, true);
 
-        PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+        PendingIntent pendingIntent = null;
+        //pendingIntent = PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.S) {
+            pendingIntent = PendingIntent.getActivity
+                    (context, 0, intent, PendingIntent.FLAG_MUTABLE);
+        } else {
+            pendingIntent = PendingIntent.getActivity
+                    (context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+        }
+
 
         RemoteViews remoteViews = new RemoteViews(context.getPackageName(), R.layout.headline_titles);
         remoteViews.removeAllViews(R.id.headline_title_list);
