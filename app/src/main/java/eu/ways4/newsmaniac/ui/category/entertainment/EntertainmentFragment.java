@@ -85,6 +85,10 @@ public class EntertainmentFragment extends Fragment implements ProgressListener 
 
     @Override
     public void showNoInternet() {
+//        if(!(requireView() == null)){
+//            Snackbar.make(requireView(),R.string.no_internet_message,Snackbar.LENGTH_SHORT).show();
+//        }
         Snackbar.make(requireView(),R.string.no_internet_message,Snackbar.LENGTH_SHORT).show();
+
     }
 }

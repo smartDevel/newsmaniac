@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 //apply plugin: 'com.google.gms.google-services'
 
 //def keystorePropertiesFile = rootProject.file("./keystore.properties")
@@ -66,6 +67,7 @@ android {
 
 dependencies {
 
+    implementation 'com.google.firebase:firebase-config:19.1.1'
     def lifecycle_version = "2.2.0"
     def room = "2.2.5"
     def rx_android = "2.1.1"
